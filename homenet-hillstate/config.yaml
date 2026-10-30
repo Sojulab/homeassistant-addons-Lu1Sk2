@@ -1,5 +1,5 @@
 name: HomeNetwork for Hillstate
-version: "1.3.0"
+version: "1.3.1"
 slug: yogyui_homenet_hillstate
 description: RS-485 based HomeNetwork for Hillstate (Hyundai HT)
 arch:
@@ -11,7 +11,7 @@ arch:
 image: yogyui/ha-addon-{arch}-homenet-hillstate
 init: false
 startup: application
-url: https://github.com/YOGYUI/homeassistant-addons/tree/main/homenet-hillstate
+url: https://github.com/Sojulab/homeassistant-addons-Lu1Sk2/tree/main/homenet-hillstate
 ingress: true
 ingress_port: 7929
 ingress_entry: /
@@ -30,7 +30,7 @@ map:
   - backup:rw
 options:
   app_config_file_path: /config/app_config.xml
-  branch_name: main
+  branch_name: fix/dimming-0x75
   mqtt_broker:
     host: core-mosquitto
     port: 1883
@@ -103,7 +103,7 @@ options:
     elevator_check_command_method: 0
     elevator_packet_command_call_down_value: 6
     elevator_verbose_packet: false
-    dimminglight_max_brightness_level: 7
+    dimminglight_max_brightness_level: 8
     dimminglight_convert_method: 0
     outlet_handle_power_consumption: false
     outlet_handle_standby_cutoff_mode: false
