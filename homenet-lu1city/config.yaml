@@ -1,17 +1,17 @@
-name: HomeNetwork for Hillstate
+name: HomeNetwork for Lu1City SKLeadersView2nd
 version: "1.3.1"
-slug: yogyui_homenet_hillstate
-description: RS-485 based HomeNetwork for Hillstate (Hyundai HT)
+slug: sojulab_homenet_lu1city
+description: RS-485 based HomeNetwork for Hillstate (Hyundai HT) — Lu1City SKLeadersView2nd adaptation
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
   - i386
-image: yogyui/ha-addon-{arch}-homenet-hillstate
+image: sojulab/ha-addon-{arch}-homenet-lu1city
 init: false
 startup: application
-url: https://github.com/Sojulab/homeassistant-addons-Lu1Sk2/tree/main/homenet-hillstate
+url: https://github.com/Sojulab/homeassistant-addons-Lu1Sk2/tree/main/homenet-lu1city
 ingress: true
 ingress_port: 7929
 ingress_entry: /
@@ -22,7 +22,7 @@ uart: true
 usb: true
 gpio: true
 panel_icon: mdi:home-automation
-panel_title: YOGYUI-HILLSTATE
+panel_title: SKLeadersView2nd
 panel_admin: false
 map:
   - addon_config:rw
