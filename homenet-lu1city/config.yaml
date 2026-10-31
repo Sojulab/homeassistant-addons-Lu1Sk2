@@ -8,7 +8,6 @@ arch:
   - aarch64
   - amd64
   - i386
-image: sojulab/ha-addon-{arch}-homenet-lu1city
 init: false
 startup: application
 url: https://github.com/Sojulab/homeassistant-addons-Lu1Sk2/tree/main/homenet-lu1city

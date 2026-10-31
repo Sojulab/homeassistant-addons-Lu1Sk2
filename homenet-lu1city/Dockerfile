@@ -12,7 +12,7 @@ RUN apk add --update --no-cache \
 # clone repository from GitHub
 RUN mkdir -p /repos/yogyui
 RUN git clone https://github.com/Sojulab/HomeNetwork-Lu1Sk2.git /repos/yogyui/HomeNetwork
-WORKDIR /repos/yogyui/HomeNetwork/Hillstate-Gwanggyosan
+WORKDIR /repos/yogyui/HomeNetwork/Lu1City-SKLeadersView2nd
 RUN git config pull.rebase true
 
 # create & activate python virtual environment, install python requirements

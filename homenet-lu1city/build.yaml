@@ -5,7 +5,7 @@ build_from:
   armv7: "ghcr.io/home-assistant/armv7-base:latest"
   i386: "ghcr.io/home-assistant/i386-base:latest"
 labels:
-  org.opencontainers.image.title: "HomeNetwork for Hillstate"
+  org.opencontainers.image.title: "HomeNetwork for Lu1City SKLeadersView2nd"
   org.opencontainers.image.description: "RS-485 based homenetwork application for hillstate (hyundai ht)"
-  org.opencontainers.image.source: "https://github.com/YOGYUI/homeassistant-addons"
+  org.opencontainers.image.source: "https://github.com/Sojulab/homeassistant-addons-Lu1Sk2"
   org.opencontainers.image.licenses: "Apache License 2.0"
