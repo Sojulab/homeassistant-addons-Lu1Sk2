@@ -22,3 +22,7 @@ Home Assistant Add-on for communication with RS-485 based Wallpad (Hyundai-HT)
 **App source:** https://github.com/Sojulab/HomeNetwork-Lu1Sk2
 
 원작자 YOGYUI님의 훌륭한 프로젝트에 깊이 감사드립니다. (Original project: [YOGYUI/homeassistant-addons](https://github.com/YOGYUI/homeassistant-addons))
+
+## Changelog
+- **1.4.0** (2026-10-30): 환기 바이패스 지원 — HA `fan` 엔티티 `preset_modes: normal/bypass`. RS-485 `0x2B` state bit7(0x80) 실차 검증 기반. HomeNetwork fork v1.4.0 필요.
+- **1.3.1**: Lu1City-SKLeadersView2nd WORKDIR/chdir fix.
